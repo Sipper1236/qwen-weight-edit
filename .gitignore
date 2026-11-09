@@ -15,5 +15,6 @@ download.log
 /HANDOFF.md
 /source/README.md
 /output/pruned-28/README.md
+/output/pruned-28/
 /output/comparison-benchmark.json
 /output/*-memory-snapshot.json
