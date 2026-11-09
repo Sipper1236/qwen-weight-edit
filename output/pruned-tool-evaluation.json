@@ -1,0 +1,84 @@
+[
+  {
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "tool_calls": [
+            {
+              "type": "function",
+              "function": {
+                "name": "get_weather",
+                "arguments": "{\"city\":\"Paris\"}"
+              },
+              "id": "TuneuAFIFLc4bNRFNdwVcIyTxva0MHT2"
+            }
+          ]
+        }
+      }
+    ],
+    "created": 1794076864,
+    "model": "output/pruned-28-Q4_K_M.gguf",
+    "system_fingerprint": "b1-e95426f",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 26,
+      "prompt_tokens": 280,
+      "total_tokens": 306,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-MHhR07D4nfQH8Le1WPtEcaa2oPAw5pCf",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 280,
+      "prompt_ms": 41887.952,
+      "prompt_per_token_ms": 149.59982857142856,
+      "prompt_per_second": 6.684499638464063,
+      "predicted_n": 26,
+      "predicted_ms": 11176.295,
+      "predicted_per_token_ms": 447.0518,
+      "predicted_per_second": 2.2368772477820245
+    }
+  },
+  {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "The weather in Paris is sunny with a temperature of 18\u00b0C."
+        }
+      }
+    ],
+    "created": 1794076875,
+    "model": "output/pruned-28-Q4_K_M.gguf",
+    "system_fingerprint": "b1-e95426f",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 339,
+      "total_tokens": 355,
+      "prompt_tokens_details": {
+        "cached_tokens": 305
+      }
+    },
+    "id": "chatcmpl-m0kaMOsk8OUEsKzWuGlHVOYff7X3hE0m",
+    "timings": {
+      "cache_n": 305,
+      "prompt_n": 34,
+      "prompt_ms": 5749.551,
+      "prompt_per_token_ms": 169.1044411764706,
+      "prompt_per_second": 5.9135052458878965,
+      "predicted_n": 16,
+      "predicted_ms": 5629.437,
+      "predicted_per_token_ms": 375.2958,
+      "predicted_per_second": 2.66456485790675
+    }
+  }
+]

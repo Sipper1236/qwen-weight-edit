@@ -1,0 +1,13 @@
+{
+  "revision": "760121cd70bb4c36b2b5ec58eb765e0df5987efe",
+  "file": {
+    "rfilename": "Qwen3.8-9B-Q4_K_M.gguf",
+    "blobId": "b187a7a0e8c9b84c12859f5cb7b8c5cafffd0618",
+    "size": 5780090176,
+    "lfs": {
+      "sha256": "df13d66021cef676f82be74053220fd75af6bf2a6a7fb77f5222ab9e50744a7a",
+      "size": 5780090176,
+      "pointerSize": 135
+    }
+  }
+}

@@ -1,0 +1,197 @@
+[
+  {
+    "case": "arithmetic",
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "417"
+          }
+        }
+      ],
+      "created": 1794077382,
+      "model": "output/pruned-28-Q3_K_M.gguf",
+      "system_fingerprint": "b1-e95426f",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 4,
+        "prompt_tokens": 28,
+        "total_tokens": 32,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-BnHZ6dQDbN5vU3G8uIfDsze5kKeDwyIv",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 28,
+        "prompt_ms": 4430.501,
+        "prompt_per_token_ms": 158.2321785714286,
+        "prompt_per_second": 6.3198270353623665,
+        "predicted_n": 4,
+        "predicted_ms": 955.107,
+        "predicted_per_token_ms": 318.36899999999997,
+        "predicted_per_second": 3.141009331938726
+      }
+    }
+  },
+  {
+    "case": "instruction",
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "READY"
+          }
+        }
+      ],
+      "created": 1794077385,
+      "model": "output/pruned-28-Q3_K_M.gguf",
+      "system_fingerprint": "b1-e95426f",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 2,
+        "prompt_tokens": 17,
+        "total_tokens": 19,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-KuntGggj6wga6uGCsdg2GLSwYRmybPlR",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 17,
+        "prompt_ms": 3022.936,
+        "prompt_per_token_ms": 177.81976470588236,
+        "prompt_per_second": 5.6236718210375605,
+        "predicted_n": 2,
+        "predicted_ms": 296.154,
+        "predicted_per_token_ms": 296.154,
+        "predicted_per_second": 3.376621622534222
+      }
+    }
+  },
+  {
+    "case": "json",
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"name\":\"apple\",\"count\":3}"
+          }
+        }
+      ],
+      "created": 1794077392,
+      "model": "output/pruned-28-Q3_K_M.gguf",
+      "system_fingerprint": "b1-e95426f",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 10,
+        "prompt_tokens": 28,
+        "total_tokens": 38,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-uzn27onUs7cb2pdNalRglRorMrtuAq9G",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 28,
+        "prompt_ms": 4162.783,
+        "prompt_per_token_ms": 148.67082142857143,
+        "prompt_per_second": 6.7262694212021135,
+        "predicted_n": 10,
+        "predicted_ms": 3175.329,
+        "predicted_per_token_ms": 352.81433333333337,
+        "predicted_per_second": 2.8343519679378106
+      }
+    }
+  },
+  {
+    "case": "code",
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "```python\ndef add(a, b):\n    return a + b\n```"
+          }
+        }
+      ],
+      "created": 1794077404,
+      "model": "output/pruned-28-Q3_K_M.gguf",
+      "system_fingerprint": "b1-e95426f",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 18,
+        "prompt_tokens": 27,
+        "total_tokens": 45,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-vFGwWgFp8pxwdJOW71zJabOgqtIkcu9j",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 27,
+        "prompt_ms": 5485.097,
+        "prompt_per_token_ms": 203.15174074074073,
+        "prompt_per_second": 4.922428901439665,
+        "predicted_n": 18,
+        "predicted_ms": 6103.282,
+        "predicted_per_token_ms": 359.01658823529414,
+        "predicted_per_second": 2.785386616577769
+      }
+    }
+  },
+  {
+    "case": "sequence",
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
+          }
+        }
+      ],
+      "created": 1794077423,
+      "model": "output/pruned-28-Q3_K_M.gguf",
+      "system_fingerprint": "b1-e95426f",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 30,
+        "prompt_tokens": 30,
+        "total_tokens": 60,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-6LwA3SqVAqLVVsPRlvyKIQTCpL919JaF",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 30,
+        "prompt_ms": 5144.615,
+        "prompt_per_token_ms": 171.48716666666667,
+        "prompt_per_second": 5.831340148874115,
+        "predicted_n": 30,
+        "predicted_ms": 13472.701,
+        "predicted_per_token_ms": 464.5758965517241,
+        "predicted_per_second": 2.152500823702686
+      }
+    }
+  }
+]

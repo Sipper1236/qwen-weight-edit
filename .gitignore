@@ -1,0 +1,19 @@
+# Local Python environment and generated Python files
+.venv/
+__pycache__/
+*.py[cod]
+
+# Large model weights and partial downloads
+*.safetensors
+*.gguf
+*.gguf.part
+
+# Local downloads, logs, and the nested llama.cpp checkout/build
+download.log
+*.log
+/tooling/
+/HANDOFF.md
+/source/README.md
+/output/pruned-28/README.md
+/output/comparison-benchmark.json
+/output/*-memory-snapshot.json
